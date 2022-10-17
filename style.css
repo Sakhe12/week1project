@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, .main {
+    min-width: 100%;
+}
+header {
+    background-color: grey;
+}
+header, .menu-list {
+    display: inline-flex;
+}
+header img {
+    position: relative;
+    right: 25px;
+    width: 15em;
+    height: 70%;
+    margin: 5px 5px 5px 0px;
+}
+header{
+    display: inline-flex;
+    height: 4em;
+    align-items: center;
+    padding: 0 30px;
+}
+.menu {
+    margin:auto;
+    align-self: center;
+}
+.menu-list {
+    display: inline-flex;
+    list-style: none;
+}
+.menu-list li {
+    padding: 0% 30px;
+}
+.menu-list li a {
+    color: white;
+    text-decoration: none;
+}
+.menu-list :hover {
+    color: rgb(1, 241, 241);
+}
